@@ -1,0 +1,47 @@
+*{
+    /* Inicializar propiedades  */
+    /* Quita las margenes de las paginas */
+    margin: 0px;
+    /* Reduce los genes de los bordes */
+    box-sizing: border-box;
+}
+.content{
+    width: 100vw;
+    height: 100vh;
+    background-color: brown;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.header{
+    width: 90%;
+    height: 100px;
+    border: 1px solid #000;
+    margin: 0px 5px 0px 5px;
+}
+.nav,
+.footer{
+    width: 90%;
+    height: 80px;
+    border: 1px solid #000;
+    margin: 5px;
+}
+.section{
+    width: 90%;
+    height: calc(100% - 290px);
+    /* border: 1px solid #000; */
+    margin: 5px;
+    display: flex;
+    justify-content: space-between;
+}
+.col1{
+    width: 60%;
+    height: 100%;
+    background-color: pink;
+}
+.col2{
+    width: 36%;
+    height: 100%;
+    background-color: orange;
+}
