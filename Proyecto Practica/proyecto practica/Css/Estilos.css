@@ -1,0 +1,62 @@
+
+*{margin: 0;}
+.Contenedor{
+    /* width: 80%; */
+    margin: auto;
+    overflow: hidden;
+}
+
+header{
+    background-color: #403f3f;
+    color: #fff;
+    padding-top: 30px;
+    min-height: 70px;
+    border-bottom: 5px solid #bc8741;
+    background: url('../img/fondo.png');
+    text-align: center;
+    font-size: 40px;
+    font-family: "Arial", sans-serif;
+}
+
+header a{
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+    font-size: 20px;
+    font-family: "Arial", sans-serif;
+
+}
+
+header li{
+    float: left;
+    display: inline;
+    padding: 0 20px 0 20px;
+    font-family: "Arial", sans-serif;
+}
+
+header nav ul li #inicio{
+    font-size: 30px;
+    color: #bc8741;
+    font-weight: 700;
+}
+
+header nav{
+    float: right;
+    margin-top: 10px;
+    
+}
+
+main{
+    margin: auto;
+    width: 100%;
+    height: 200px;
+    background: url(/img/zona.png);
+    max-width: 100%;
+    color: #fff;
+    text-align: center;
+    font-size: 40px;
+    font-family: "Arial", sans-serif;
+    padding: 20px;
+    margin-top: 20px
+}
+
+
